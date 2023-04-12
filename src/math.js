@@ -23,3 +23,4 @@ const isOdd = function(a) {
 }
 
 exports.isEven = isEven;
+exports.add = add;

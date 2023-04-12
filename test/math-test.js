@@ -1,3 +1,8 @@
+const test = require("../lib/testing.js");
+const math = require("../src/math.js");
+
+const add = math.add;
+
 const testArithematicOperations = function() {
 	test.assertEquality(2, add(1, 1), "1 + 1 should be 2");
 	test.assertEquality(3, subtract(4, 1), "4 - 1 should be 3");
