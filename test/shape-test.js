@@ -1,5 +1,5 @@
 const test = require("../lib/testing.js");
-const squareObj = require("../src/square.js");
+const squareObj = require("../src/shapes/square.js");
 
 const square = squareObj.square;
 
